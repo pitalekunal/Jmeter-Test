@@ -1,0 +1,5 @@
+1. For Running Tests, JTL file and Dashboard
+jmeter -n -t C:/apache-jmeter-3.1/bin/RMS/scripts/Rms-Mixed_Scenario.jmx -l C:/apache-jmeter-3.1/bin/RMS/Reports/result.jtl -e -o C:/apache-jmeter-3.1/bin/RMS/Dashboard
+
+2. For Running already existing JTL file for Dashboard
+jmeter -g C:/apache-jmeter-3.1/bin/RMS/Reports/result.jtl -o C:/apache-jmeter-3.1/bin/RMS/Dashboard
